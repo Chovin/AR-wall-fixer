@@ -1,4 +1,4 @@
-#AR-app
+# AR-app
 
 Collab app for use in Hacktoberfest Git workshop 🎉
 
