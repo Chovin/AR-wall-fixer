@@ -19,8 +19,13 @@
     <script>
       var t = 0;
       setInterval(function() {
-        t += .2;
-        let r = Math.sin(t)*120;
+        t += .15;
+        if (t > 3.14) {
+          t = 0
+          console.log('roll over');
+          console.log(document.getElementById('image'));
+        }
+        var r = Math.sin(t)*120;
         document.getElementById('image').setAttribute('rotation',
           '-90 ${r} 0'                 
         );
