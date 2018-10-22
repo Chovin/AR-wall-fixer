@@ -12,24 +12,15 @@
                      position='0 0.9 0'
                      rotation='-90 0 0'
                      scale='2 2 2'
-                     src='https://raw.githubusercontent.com/Chovin/ar-app/master/images/docomo-pacific-sq.png'></a-image>
+                     src='https://raw.githubusercontent.com/Chovin/ar-app/master/images/docomo-pacific-sq.png'>
+              <a-animation attribute="rotation"
+                           dur="10000"
+                           fill="forwards"
+                           to="-90 360 0"
+                           repeat="indefinite"></a-animation>
+            </a-image>
   	</a-marker>
   	<a-entity camera></a-entity>
     </a-scene>
-    <script>
-      var t = 0;
-      setInterval(function() {
-        t += .15;
-        if (t > 3.14) {
-          t = 0
-          console.log('roll over');
-          console.log(document.getElementById('image'));
-        }
-        var r = Math.sin(t)*120;
-        document.getElementById('image').setAttribute('rotation',
-          '-90 ${r} 0'                 
-        );
-      }, 100);
-    </script>
   </body>
 </html>
