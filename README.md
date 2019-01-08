@@ -7,4 +7,4 @@ Using [AR.js](https://github.com/jeromeetienne/AR.js)'s [10 line example](https:
 
 Go [here](https://chovin.github.io/ar-app/) and point your camera to the image below
 
-![hiro](https://jeromeetienne.github.io/AR.js/data/images/HIRO.jpg)
+![hiro](images/Hiro.png)
