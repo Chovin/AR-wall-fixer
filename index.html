@@ -8,16 +8,27 @@
     <a-scene embedded arjs>
   	<a-marker preset="hiro">
             <a-image id='image'
-                     position='0 0.8 0'
-                     rotation='-90 -15 0'
-                     scale='2 2 2'
-                     src='https://raw.githubusercontent.com/Chovin/ar-app/master/images/frame.png'>
-              <a-animation attribute="rotation"
-                           dur="10000"
-                           fill="forwards"
-                           to="-90 15 0"
-                           repeat="indefinite"></a-animation>
+                     position='0 0.1 0'
+                     rotation='0 0 0'
+                     scale='1 1 1'
+                     src='https://raw.githubusercontent.com/Chovin/ar-app/master/images/hacktoberfest_poster_switched.png'>
             </a-image>
+            <a-text value="coupon code: blah"
+                    text.color="#ffa500"
+                    position='0 0.5 0'
+                    rotation='0 0 0'>
+                    <a-animation attribute="rotation"
+                                   dur="1000"
+                                   fill="forwards"
+                                   to="-90 15 0"
+                                   repeat="indefinite"></a-animation>
+                    <a-animation attribute="position"
+                                   dur="3000"
+                                   fill="forwards"
+                                   to="0 0.7 0"
+                                   repeat="indefinite"></a-animation>
+            </a-text>
+                     
   	</a-marker>
   	<a-entity camera></a-entity>
     </a-scene>
