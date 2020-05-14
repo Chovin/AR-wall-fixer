@@ -1,10 +1,11 @@
-# AR-app
+# AR-wall-fixer
 
-Collab app for use in Hacktoberfest Git workshop 🎉
+to fix stubborn paint off-shade paint marks on your walls, just follow these simple steps!
 
-Using [AR.js](https://github.com/jeromeetienne/AR.js)'s [10 line example](https://medium.com/arjs/augmented-reality-in-10-lines-of-html-4e193ea9fdbf)
-
-
-Go [here](https://chovin.github.io/ar-app/) and point your camera to the image below
+1. print out the image below and put it on the wall where the ugly bits are
+2. point your phone's camera at it
+3. navigate to the webpage that it brings up
+4. give it camera access
+5. forget that the ugly paint was ever there!
 
 ![hiro](images/Hiro.png)
