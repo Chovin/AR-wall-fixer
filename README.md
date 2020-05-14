@@ -1,6 +1,6 @@
 # AR-wall-fixer
 
-to fix stubborn paint off-shade paint marks on your walls, just follow these simple steps!
+to fix stubborn off-shade paint marks on your walls, just follow these simple steps!
 
 1. print out the image below and put it on the wall where the ugly bits are
 2. point your phone's camera at it
